@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: Mongo DB Example
+  data:
+    mongodb:
+      host: mongodb://rahul:rahul@ds053320.mlab.com
+      port: 53320
+      database: spring-boot-jpa
+      repositories:
+        type: auto
+      uri: mongodb://rahul:rahul@ds053320.mlab.com:53320/spring-boot-jpa
